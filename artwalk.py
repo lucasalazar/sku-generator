@@ -1,9 +1,4 @@
-from bs4 import BeautifulSoup as bs #Importa pacotes necessários
-import requests
-import webbrowser
-
 arrayLinks = []
-
 
 def get_links():
     url = "https://www.artwalk.com.br/checkout/cart/add?sku="
